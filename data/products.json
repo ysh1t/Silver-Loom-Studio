@@ -34,5 +34,14 @@
     "discount": 10,
     "description": "Amazing spiral ring",
     "image": "images/SL41254387-1000476391.jpg"
+  },
+  {
+    "id": "SL42730648",
+    "name": "Ac",
+    "category": "Earrings",
+    "price": 45000,
+    "discount": 5,
+    "description": "New ac",
+    "image": "images/SL42730648-1000476365.jpg"
   }
 ]
