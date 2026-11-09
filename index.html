@@ -64,4 +64,62 @@ selected=button.dataset.category;
 render();
 });
 document.getElementById("year").textContent=new Date().getFullYear();loadCatalogue();
-</script></body></html>
+</script>
+<script>
+/* Independent storefront catalogue renderer: keeps products visible even if the original inline renderer fails. */
+(async function(){
+  const grid=document.getElementById("products");
+  const filters=document.getElementById("filters");
+  if(!grid||!filters)return;
+  const money=n=>"₹"+Number(n||0).toLocaleString("en-IN");
+  let items=[];
+  try{
+    const response=await fetch(new URL("data/products.json",document.baseURI).href,{cache:"no-store"});
+    if(!response.ok)throw new Error("Product data returned "+response.status);
+    const data=await response.json();
+    if(!Array.isArray(data))throw new Error("Product data is not a list");
+    items=data;
+  }catch(error){
+    console.error("Silver Loom catalogue:",error);
+    grid.textContent="Products could not be loaded. Please refresh the page.";
+    return;
+  }
+  const categoryList=["All",...new Set(items.map(p=>String(p.category||"").trim()).filter(Boolean))];
+  let active="All";
+  function show(){
+    filters.replaceChildren();
+    categoryList.forEach(category=>{
+      const button=document.createElement("button");
+      button.type="button";button.className="filter"+(active===category?" active":"");
+      button.textContent=category;
+      button.addEventListener("click",()=>{active=category;show();});
+      filters.appendChild(button);
+    });
+    grid.replaceChildren();
+    const visible=items.filter(p=>active==="All"||String(p.category||"").trim()===active);
+    if(!visible.length){grid.textContent="No products in this category yet.";return;}
+    visible.forEach(p=>{
+      const card=document.createElement("article");card.className="product";
+      const visual=document.createElement("div");visual.className="product-img";
+      if(p.image){
+        const img=document.createElement("img");
+        img.src=new URL(p.image,document.baseURI).href;img.alt=p.name||"Silver jewellery";img.loading="lazy";
+        img.onerror=()=>{img.remove();const span=document.createElement("span");span.className="placeholder";span.textContent="925 Silver";visual.appendChild(span);};
+        visual.appendChild(img);
+      }else{const span=document.createElement("span");span.className="placeholder";span.textContent="925 Silver";visual.appendChild(span);}
+      if(Number(p.discount)>0){const tag=document.createElement("span");tag.className="tag";tag.textContent=p.discount+"% OFF";visual.appendChild(tag);}
+      const title=document.createElement("h3");title.textContent=p.name||"Silver jewellery";
+      const price=document.createElement("div");price.className="price";
+      price.textContent=money(Math.round(Number(p.price||0)*(100-Number(p.discount||0))/100));
+      if(Number(p.discount)>0){const old=document.createElement("span");old.className="old";old.textContent=money(p.price);price.appendChild(old);}
+      const buy=document.createElement("a");buy.className="buy";buy.textContent="Enquire on WhatsApp ↗";
+      buy.href="https://wa.me/918396060982?text="+encodeURIComponent("Hello Silver Loom Studio! I am interested in "+(p.name||"this product")+" ("+(p.id||"") +"). Please share details.");
+      buy.target="_blank";buy.rel="noopener";
+      card.append(visual,title,price,buy);grid.appendChild(card);
+    });
+  }
+  show();
+})();
+</script>
+
+</body></html>
