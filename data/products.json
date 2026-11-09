@@ -1,14 +1,5 @@
 [
   {
-    "id": "SL001",
-    "name": "Classic Silver Band",
-    "category": "Rings",
-    "price": 1299,
-    "discount": 0,
-    "description": "A clean, polished sterling silver band.",
-    "image": ""
-  },
-  {
     "id": "SL002",
     "name": "Everyday Silver Hoops",
     "category": "Earrings",
