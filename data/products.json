@@ -25,5 +25,14 @@
     "discount": 15,
     "description": "A simple statement in polished 925 silver.",
     "image": ""
+  },
+  {
+    "id": "SL41254387",
+    "name": "Spiral Ring",
+    "category": "Rings",
+    "price": 3000,
+    "discount": 10,
+    "description": "Amazing spiral ring",
+    "image": "images/SL41254387-1000476391.jpg"
   }
 ]
