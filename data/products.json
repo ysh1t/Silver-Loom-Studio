@@ -1,0 +1,38 @@
+[
+  {
+    "id": "SL001",
+    "name": "Classic Silver Band",
+    "category": "Rings",
+    "price": 1299,
+    "discount": 0,
+    "description": "A clean, polished sterling silver band.",
+    "image": ""
+  },
+  {
+    "id": "SL002",
+    "name": "Everyday Silver Hoops",
+    "category": "Earrings",
+    "price": 1599,
+    "discount": 10,
+    "description": "Lightweight hoops for effortless everyday style.",
+    "image": ""
+  },
+  {
+    "id": "SL003",
+    "name": "Dainty Silver Pendant",
+    "category": "Necklaces",
+    "price": 1899,
+    "discount": 0,
+    "description": "A delicate pendant with timeless appeal.",
+    "image": ""
+  },
+  {
+    "id": "SL004",
+    "name": "Minimal Cuff Bracelet",
+    "category": "Bracelets",
+    "price": 2199,
+    "discount": 15,
+    "description": "A simple statement in polished 925 silver.",
+    "image": ""
+  }
+]
