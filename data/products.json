@@ -160,5 +160,14 @@
     "discount": 15,
     "description": "Matching pair of sweet, romantic studs designed in a puffy heart silhouette. Embedded in the center of each earring is a smaller, clear heart-shaped crystal or rhinestone bezel-set in a metallic silver-toned frame, adding a subtle touch of sparkle.",
     "image": "images/SL01960502-1000476781.jpg"
+  },
+  {
+    "id": "SL02254607",
+    "name": "Pink Enamel Square Stud Earrings",
+    "category": "Rings",
+    "price": 1850,
+    "discount": 15,
+    "description": "A brilliant, multi-faceted cushion-cut or princess-cut simulated diamond (such as cubic zirconia or American diamond) that catches the light.",
+    "image": "images/SL02254607-1000476783.jpg"
   }
 ]
