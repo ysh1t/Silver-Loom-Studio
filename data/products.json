@@ -142,5 +142,14 @@
     "discount": 15,
     "description": "A perfect fusion of traditional Indian craftsmanship and modern minimalist geometry, making them versatile enough for both contemporary daily wear and festive occasions.",
     "image": "images/SL01321210-1000476777.jpg"
+  },
+  {
+    "id": "SL01709509",
+    "name": "Heart-Shaped Enamel Stud Earrings",
+    "category": "Earrings",
+    "price": 1600,
+    "discount": 15,
+    "description": "Elegant stud earrings feature an open heart outline crafted in sleek white enamel, beautifully accented by a sparkling, diamond-simulated stone bow wrapped around one side.",
+    "image": "images/SL01709509-1000476779.jpg"
   }
 ]
