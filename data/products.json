@@ -25,5 +25,14 @@
     "discount": 20,
     "description": "This is a contemporary 925 sterling silver or white gold band featuring an alternating Greek key (fret/groove) geometric pattern flanked by rows of brilliant channel-set round accent diamonds or moissanite stones.",
     "image": "images/SL82407020-1000476547.jpg"
+  },
+  {
+    "id": "SL82982989",
+    "name": "Graduated Diamond Drop Earrings",
+    "category": "Earrings",
+    "price": 2600,
+    "discount": 12,
+    "description": "This elegant pair of graduated diamond drop earrings features a series of round-cut shimmering stones that delicately increase in size as they cascade down to a large, prominent terminal brilliant-cut gem.",
+    "image": "images/SL82982989-1000476555.jpg"
   }
 ]
