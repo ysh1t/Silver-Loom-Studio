@@ -124,5 +124,14 @@
     "discount": 15,
     "description": "This style of chain features a textured, braided design crafted from chevron-shaped links that intertwine to mimic the full, staggered pattern of a fox's tail.",
     "image": "images/SL98249878-1000476745.jpg"
+  },
+  {
+    "id": "SL98347404",
+    "name": "Silver Box Chain",
+    "category": "Rings",
+    "price": 1500,
+    "discount": 15,
+    "description": "Interconnected square links configured closely together to form a smooth, sleek, and durable geometric geometric pattern that is popular for both solo wear and displaying pendants.",
+    "image": "images/SL98347404-1000476750.jpg"
   }
 ]
