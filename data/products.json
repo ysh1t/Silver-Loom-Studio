@@ -34,5 +34,14 @@
     "discount": 12,
     "description": "This elegant pair of graduated diamond drop earrings features a series of round-cut shimmering stones that delicately increase in size as they cascade down to a large, prominent terminal brilliant-cut gem.",
     "image": "images/SL82982989-1000476555.jpg"
+  },
+  {
+    "id": "SL83290896",
+    "name": "Blue Butterfly Stud Earrings",
+    "category": "Earrings",
+    "price": 1250,
+    "discount": 17,
+    "description": "925 Sterling Silver Blue Butterfly Stud Earrings decorated with vibrant blue enamel wings and sparkling cubic zirconia borders.",
+    "image": "images/SL83290896-1000476557.jpg"
   }
 ]
