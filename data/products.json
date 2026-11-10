@@ -43,5 +43,14 @@
     "discount": 17,
     "description": "925 Sterling Silver Blue Butterfly Stud Earrings decorated with vibrant blue enamel wings and sparkling cubic zirconia borders.",
     "image": "images/SL83290896-1000476557.jpg"
+  },
+  {
+    "id": "SL83603478",
+    "name": "Blue Enamel Halo Stud Earrings",
+    "category": "Earrings",
+    "price": 1400,
+    "discount": 12,
+    "description": "Sterling silver round halo stud earrings featuring vibrant blue enamel floral petals accented by a shimmering border of cubic zirconia stones.",
+    "image": "images/SL83603478-1000476559.jpg"
   }
 ]
