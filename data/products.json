@@ -106,5 +106,14 @@
     "discount": 15,
     "description": "This is a bezel-set beaded bubble eternity ring featuring alternating round accent stones and polished metallic spheres.",
     "image": "images/SL95575886-1000476692.jpg"
+  },
+  {
+    "id": "SL96265100",
+    "name": "Evil Eye Huggie Hoop Dangle Earrings",
+    "category": "Earrings",
+    "price": 2450,
+    "discount": 15,
+    "description": "The central motif is a vibrant blue, concentric evil eye amulet designed with traditional deep blue, white, and black concentric rings. The protective charm is bordered by an elegant radiating halo of tiny, shimmering stones that mimic lashes or a sunburst border.",
+    "image": "images/SL96265100-1000476709.jpg"
   }
 ]
