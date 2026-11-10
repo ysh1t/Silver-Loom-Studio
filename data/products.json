@@ -133,5 +133,14 @@
     "discount": 15,
     "description": "Interconnected square links configured closely together to form a smooth, sleek, and durable geometric geometric pattern that is popular for both solo wear and displaying pendants.",
     "image": "images/SL98347404-1000476750.jpg"
+  },
+  {
+    "id": "SL01321210",
+    "name": "Black Enamel Teardrop Stud Earrings",
+    "category": "Earrings",
+    "price": 1800,
+    "discount": 15,
+    "description": "A perfect fusion of traditional Indian craftsmanship and modern minimalist geometry, making them versatile enough for both contemporary daily wear and festive occasions.",
+    "image": "images/SL01321210-1000476777.jpg"
   }
 ]
