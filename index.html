@@ -55,7 +55,7 @@ const link="https://wa.me/918396060982?text="+encodeURIComponent("Hello Silver L
 const image=p.image?new URL(p.image,new URL("./",location.href)).href:"";
 const optimized=p.image?new URL("images/optimized/"+p.image.split("/").pop().replace(/\.(jpe?g|png)$/i,".webp"),new URL("./",location.href)).href:"";
 const safeName=String(p.name||"Silver jewellery").replace(/[&<>"']/g,ch=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;',"'" :"&#39;"}[ch]));
-return '<article class="product"><div class="product-img">'+(image?'<picture><source type="image/webp" srcset="'+optimized+'"><img src="'+image+'" alt="'+safeName+'" loading="'+(shown.indexOf(p)<4?'eager':'lazy')+'" decoding="async" '+(shown.indexOf(p)<4?'fetchpriority="high"':'')+' onerror="this.remove();this.parentElement.insertAdjacentHTML(\'beforeend\',\'<span class="placeholder">925 Silver</span>\')"></picture>':'<span class="placeholder">925 Silver</span>')+(p.discount?'<span class="tag">'+p.discount+'% OFF</span>':'')+'</div><h3>'+safeName+'</h3><div class="price">'+money(price)+(p.discount?'<span class="old">'+money(Number(p.price||0))+'</span>':'')+'</div><a class="buy" href="'+link+'" target="_blank" rel="noopener">Enquire on WhatsApp ↗</a></article>';
+return '<article class="product"><div class="product-img">'+(image?'<img src="'+image+'" alt="'+safeName+'" loading="'+(shown.indexOf(p)<4?'eager':'lazy')+'" decoding="async" '+(shown.indexOf(p)<4?'fetchpriority="high"':'')+' onerror="this.remove();this.parentElement.insertAdjacentHTML(\'beforeend\',\'<span class="placeholder">925 Silver</span>\')"></picture>':'<span class="placeholder">925 Silver</span>')+(p.discount?'<span class="tag">'+p.discount+'% OFF</span>':'')+'</div><h3>'+safeName+'</h3><div class="price">'+money(price)+(p.discount?'<span class="old">'+money(Number(p.price||0))+'</span>':'')+'</div><a class="buy" href="'+link+'" target="_blank" rel="noopener">Enquire on WhatsApp ↗</a></article>';
 }).join("")||"<p>New pieces coming soon.</p>";
 }
 document.getElementById("filters").addEventListener("click",function(event){
@@ -103,16 +103,11 @@ document.getElementById("year").textContent=new Date().getFullYear();loadCatalog
       const card=document.createElement("article");card.className="product";
       const visual=document.createElement("div");visual.className="product-img";
       if(p.image){
-        const picture=document.createElement("picture");
-        const source=document.createElement("source");
-        source.type="image/webp";
-        source.srcset=new URL("images/optimized/"+p.image.split("/").pop().replace(/\.(jpe?g|png)$/i,".webp"),document.baseURI).href;
         const img=document.createElement("img");
         img.src=new URL(p.image,document.baseURI).href;img.alt=p.name||"Silver jewellery";
         const eager=visibleIndex<4;img.loading=eager?"eager":"lazy";img.decoding="async";if(eager)img.fetchPriority="high";
-        picture.append(source,img);
         img.onerror=()=>{img.remove();const span=document.createElement("span");span.className="placeholder";span.textContent="925 Silver";visual.appendChild(span);};
-        visual.appendChild(picture);
+        visual.appendChild(img);
       }else{const span=document.createElement("span");span.className="placeholder";span.textContent="925 Silver";visual.appendChild(span);}
       if(Number(p.discount)>0){const tag=document.createElement("span");tag.className="tag";tag.textContent=p.discount+"% OFF";visual.appendChild(tag);}
       const title=document.createElement("h3");title.textContent=p.name||"Silver jewellery";
