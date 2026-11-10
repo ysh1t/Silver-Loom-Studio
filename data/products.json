@@ -1,14 +1,5 @@
 [
   {
-    "id": "SL002",
-    "name": "Everyday Silver Hoops",
-    "category": "Earrings",
-    "price": 1599,
-    "discount": 10,
-    "description": "Lightweight hoops for effortless everyday style.",
-    "image": ""
-  },
-  {
     "id": "SL003",
     "name": "Dainty Silver Pendant",
     "category": "Necklaces",
