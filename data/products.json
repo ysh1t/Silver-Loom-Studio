@@ -16,5 +16,14 @@
     "discount": 0,
     "description": "A delicate, stackable fashion band featuring a continuous track of repeating heart-shaped settings encrusted with micro-pave cubic zirconia or diamonds.",
     "image": "images/SL82196105-1000476546.jpg"
+  },
+  {
+    "id": "SL82407020",
+    "name": "Greek Groove Moissanite",
+    "category": "Rings",
+    "price": 1580,
+    "discount": 20,
+    "description": "This is a contemporary 925 sterling silver or white gold band featuring an alternating Greek key (fret/groove) geometric pattern flanked by rows of brilliant channel-set round accent diamonds or moissanite stones.",
+    "image": "images/SL82407020-1000476547.jpg"
   }
 ]
