@@ -70,5 +70,14 @@
     "discount": 10,
     "description": "Elegant, Van Cleef-inspired jewelry piece features a silver chain adorned with alternating four-leaf clover stations, blending sparkling cubic zirconia pavé with pristine, iridescent mother-of-pearl style inserts.",
     "image": "images/SL94101606-1000476682.jpg"
+  },
+  {
+    "id": "SL94479521",
+    "name": "Teardrop Pave-Set Stud",
+    "category": "Earrings",
+    "price": 1100,
+    "discount": 15,
+    "description": "Featuring a polished sterling silver drop design intricately encrusted with shimmering cubic zirconia accents.",
+    "image": "images/SL94479521-1000476684.jpg"
   }
 ]
