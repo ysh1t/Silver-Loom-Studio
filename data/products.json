@@ -52,5 +52,14 @@
     "discount": 12,
     "description": "Sterling silver round halo stud earrings featuring vibrant blue enamel floral petals accented by a shimmering border of cubic zirconia stones.",
     "image": "images/SL83603478-1000476559.jpg"
+  },
+  {
+    "id": "SL92607148",
+    "name": "Sterling Silver Wheat Chain",
+    "category": "Chains",
+    "price": 2000,
+    "discount": 15,
+    "description": "This is a sleek, highly polished sterling silver chain featuring tightly interwoven links styled in a classic twisted rope pattern that catches the light beautifully.",
+    "image": "images/SL92607148-1000476674.jpg"
   }
 ]
