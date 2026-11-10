@@ -88,5 +88,14 @@
     "discount": 15,
     "description": "Featuring an oval-cut stud connected to a slender, pavé-set vertical bar that terminates in a glittering teardrop or pear-shaped dangling element.",
     "image": "images/SL94997999-1000476688.jpg"
+  },
+  {
+    "id": "SL95433441",
+    "name": "Sterling Silver Infinity Ring",
+    "category": "Rings",
+    "price": 1650,
+    "discount": 20,
+    "description": "Featuring a polished metallic loop intertwined with a loop pave-set with sparkling cubic zirconia stones.",
+    "image": "images/SL95433441-1000476690.jpg"
   }
 ]
