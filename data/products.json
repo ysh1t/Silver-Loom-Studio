@@ -79,5 +79,14 @@
     "discount": 15,
     "description": "Featuring a polished sterling silver drop design intricately encrusted with shimmering cubic zirconia accents.",
     "image": "images/SL94479521-1000476684.jpg"
+  },
+  {
+    "id": "SL94997999",
+    "name": "Silver-Toned Diamond Drop Earrings",
+    "category": "Earrings",
+    "price": 4500,
+    "discount": 15,
+    "description": "Featuring an oval-cut stud connected to a slender, pavé-set vertical bar that terminates in a glittering teardrop or pear-shaped dangling element.",
+    "image": "images/SL94997999-1000476688.jpg"
   }
 ]
