@@ -97,5 +97,14 @@
     "discount": 20,
     "description": "Featuring a polished metallic loop intertwined with a loop pave-set with sparkling cubic zirconia stones.",
     "image": "images/SL95433441-1000476690.jpg"
+  },
+  {
+    "id": "SL95575886",
+    "name": "Bezel-Set Beaded Bubble Eternity Ring",
+    "category": "Rings",
+    "price": 1000,
+    "discount": 15,
+    "description": "This is a bezel-set beaded bubble eternity ring featuring alternating round accent stones and polished metallic spheres.",
+    "image": "images/SL95575886-1000476692.jpg"
   }
 ]
