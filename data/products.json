@@ -151,5 +151,14 @@
     "discount": 15,
     "description": "Elegant stud earrings feature an open heart outline crafted in sleek white enamel, beautifully accented by a sparkling, diamond-simulated stone bow wrapped around one side.",
     "image": "images/SL01709509-1000476779.jpg"
+  },
+  {
+    "id": "SL01960502",
+    "name": "Pink Enamel Heart Stud Earrings",
+    "category": "Earrings",
+    "price": 1750,
+    "discount": 15,
+    "description": "Matching pair of sweet, romantic studs designed in a puffy heart silhouette. Embedded in the center of each earring is a smaller, clear heart-shaped crystal or rhinestone bezel-set in a metallic silver-toned frame, adding a subtle touch of sparkle.",
+    "image": "images/SL01960502-1000476781.jpg"
   }
 ]
